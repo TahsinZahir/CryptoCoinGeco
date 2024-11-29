@@ -8,8 +8,8 @@ function CoinTable(){
     // },[]);
     const [page,setPage]=useState(1);
     const { data,isLoading,isError,error}=useQuery(['coins',page],()=>fetchCoinData(page,'usd'),{
-        retry:2,
-        retryDelay:1000,
+        // retry:2,
+        // retryDelay:1000,
         cacheTime:1000*60*2,
     });
     if(isLoading){
