@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { fetchCoinData } from "../../services/fetchCoinData";
 import { useQuery } from "react-query";
-// import { CurrencyContext } from "../../context/CurrencyContext";
 import currencyStore from '../../state/store';
 import { useNavigate } from "react-router-dom";
+import { Facebook } from "react-content-loader";
+
 function CoinTable(){
 
     const { currency }=currencyStore();
@@ -22,6 +23,9 @@ function CoinTable(){
 
     if(isError){
     return <div>Error:{error.message}</div>
+    }
+    if(isLoading){
+    return <Facebook/>
     }
     return(
       <div className="my-5 flex flex-col items-center justify-center gap-5 w-[80vw] mx-auto">

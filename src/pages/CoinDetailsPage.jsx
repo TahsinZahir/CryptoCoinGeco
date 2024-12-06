@@ -2,7 +2,8 @@ import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import { fetchCoinDetails } from "../services/fetchCoinDetails";
 import parse from 'html-react-parser';
-import currencyStore from "../state/store"
+import currencyStore from "../state/store";
+import { Facebook } from "react-content-loader";
 
 
 function CoinDetailsPage(){
@@ -15,10 +16,10 @@ const {isError,isLoading,data:coin} = useQuery(["coin",coinId],()=>fetchCoinDeta
     staleTime:1000*60*2,
 });
 if(isLoading){
-return <div>Loading...</div>
+return <Facebook/>
 }
 if(isError){
-return<div>Something went wrong...</div>
+return <Facebook/>
 }
 
 return (
