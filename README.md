@@ -20,16 +20,15 @@ A modern cryptocurrency price tracking app built using React and Vite. The appli
 
 ## Deployment
 
-You can check out the live deployment of the application [https://crypto-coin-geco-project.vercel.app/](#).
+You can check out the live deployment of the application [here](https://crypto-coin-geco-project.vercel.app/).
 
 ## Screenshots
 
-1. ![![Screenshot (42)](https://github.com/user-attachments/assets/ca6ecbf3-0c00-44cb-970b-7177606d29e4)
-](#)
-2. ![![Screenshot (43)](https://github.com/user-attachments/assets/9c258f21-8797-4266-9144-9c09cd7a290a)
-](#)
-2. ![![Screenshot (45)](https://github.com/user-attachments/assets/c58fe25d-b215-4bc0-a2a4-c2b2b2f6539e)
-](#)
+1. ![Screenshot (42)](![Screenshot (42)](https://github.com/user-attachments/assets/d63918dc-d1fd-4b41-b68f-c72a3b2c8df1)
+)
+2. ![Screenshot (43)](![Screenshot (43)](https://github.com/user-attachments/assets/572e4517-0580-44a8-90f1-754aa8ab73db)
+)
+3. ![Screenshot (45)](![Screenshot (45)](https://github.com/user-attachments/assets/349882e5-8c8a-4b75-8fae-319049fb5185)
+)
 
 Feel free to contribute, raise issues, or suggest features. Happy coding!
-
